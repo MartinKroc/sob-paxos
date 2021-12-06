@@ -1,0 +1,43 @@
+# compiled output
+sob-klient/dist
+sob-klient/tmp
+sob-klient/out-tsc
+# Only exists if Bazel was run
+sob-klient/bazel-out
+
+# dependencies
+sob-klient/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+sob-klient/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+sob-klient/.sass-cache
+sob-klient/connect.lock
+sob-klient/coverage
+sob-klient/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+sob-klient/typings
+
+# System Files
+.DS_Store
+Thumbs.db

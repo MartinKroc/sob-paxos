@@ -1,18 +1,18 @@
 # compiled output
-sob-klient/dist
-sob-klient/tmp
-sob-klient/out-tsc
+dist
+tmp
+out-tsc
 # Only exists if Bazel was run
 sob-klient/bazel-out
 
 # dependencies
-sob-klient/node_modules
+node_modules
 
 # profiling files
 chrome-profiler-events*.json
 
 # IDEs and editors
-sob-klient/.idea
+.idea
 .project
 .classpath
 .c9/
@@ -29,14 +29,14 @@ sob-klient/.idea
 .history/*
 
 # misc
-sob-klient/.sass-cache
-sob-klient/connect.lock
-sob-klient/coverage
-sob-klient/libpeerconnection.log
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
 npm-debug.log
 yarn-error.log
 testem.log
-sob-klient/typings
+typings
 
 # System Files
 .DS_Store
